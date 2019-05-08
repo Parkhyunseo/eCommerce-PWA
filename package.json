@@ -1,0 +1,19 @@
+{
+  "name": "eCommerce",
+  "version": "1.0.0",
+  "description": "eCommerce Built with NextJS and GraphCMS",
+  "repository": "https://github.com/Parkhyunseo/eCommerce-PWA",
+  "author": "ParkHyunseo <gustj960217@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production next server"
+  }
+}
